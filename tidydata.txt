@@ -1,0 +1,21 @@
+1. Rows (Observations)
+The file contains 180 rows. This is because there are 30 subjects (participants) and 6 activities (WALKING, SITTING, etc.) for each..
+
+2. Columns (Variables)
+Each row includes several columns that follow the tidy data principle:
+
+    Subject: An identifier (1–30) for the person who performed the activity.
+    Activity: The descriptive name of the activity (e.g., WALKING).
+    Averages of Measurements: The rest of the columns (usually around 66 to 79) contain the average value for each mean and standard deviation measurement from the original dataset.
+
+3. Example Snippet
+If you open the file, it will look like this (simplified):
+subject	activity	TimeBodyAccelerometer-mean()-X	TimeBodyAccelerometer-std()-Y	...
+1	WALKING	0.277	-0.017	...
+1	SITTING	0.221	-0.040	...
+2	WALKING	0.276	-0.018	...
+4. Technical Format
+
+    Space-delimited: The values are typically separated by spaces.
+    Header included: The first line contains the variable names.
+    No row names: As per the instructions (row.name=FALSE), there are no numbering labels at the start of each line.
